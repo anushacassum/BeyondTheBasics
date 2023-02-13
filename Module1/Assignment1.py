@@ -8,7 +8,6 @@ Constraint: The function should not be longer than one line"""
 
 def greetings(name):
 	### Your one liner code ##
-	# return f"Hello, {name.split(' ')[1].capitalize() if len(name.split(' '))>1 else name.split(' ')[0].capitalize()}"
 	return name
 
 if __name__ == '__main__':
